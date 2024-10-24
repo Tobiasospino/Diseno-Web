@@ -1,0 +1,39 @@
+/* Estilos globales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Estilo del encabezado */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+}
+
+/* Tarjeta del formulario */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #457b9d;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+}
+
+/* Campos del formulario en foco */
+.form-control:focus {
+    border-color: #457b9d;
+    box-shadow: 0 0 8px rgba(69, 123, 157, 0.5);
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
